@@ -2066,6 +2066,12 @@
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
+		.image.normal {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 550px;
+			height: 360px;
+		}
 
 			.image.fit img {
 				width: 100%;
