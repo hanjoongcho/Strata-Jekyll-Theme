@@ -1652,7 +1652,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 2px #efefef;
-		margin: 2em 0;
+		//margin: 2em 0;		
 	}
 
 		hr.major {
@@ -2104,7 +2104,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		//margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
 
