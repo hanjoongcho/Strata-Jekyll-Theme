@@ -6,3 +6,7 @@
   link: 'https://github.com/hanjoongcho'
   social_icon: GITHUB
   new_window: true
+- name: NAVER
+  link: 'http://korn123.blog.me/'
+  social_icon: naver
+  new_window: true  
