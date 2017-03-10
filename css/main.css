@@ -1562,7 +1562,7 @@
 	body, input, select, textarea {
 		color: #a2a2a2;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 13pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -2830,22 +2830,31 @@
 		opacity: 1.0 !important;
 	}
 
-/* XLarge */
-
-	@media screen and (max-width: 1800px) {
-
-		/* Basic */
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
+	#header {
+		border-radius: 0px;
+	}
+	header {
+		background: aliceblue;
+		padding: 0px 0px 0px 10px;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+	
+	.table-contents {
+		background: aliceblue;
+		padding: 0px 0px 0px 10px;
+		border-radius: 5px;
 	}
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1920px) {
 
+		section img {
+			max-width: 500px !important;
+		}
+			
+	
 		/* Header */
 
 			#header {
@@ -2891,6 +2900,11 @@
 
 	@media screen and (max-width: 980px) {
 
+		/*
+		.image.fit {
+			width: 100%;
+		}
+		*/
 		/* Basic */
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
