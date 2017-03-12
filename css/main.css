@@ -2845,13 +2845,17 @@
 		padding: 0px 0px 0px 10px;
 		border-radius: 5px;
 	}
+	
+	section > p {
+		overflow:auto;
+	}
 
 /* Large */
 
 	@media screen and (max-width: 1920px) {
 
 		section img {
-			max-width: 500px !important;
+			max-width: 600px !important;
 		}
 			
 	
