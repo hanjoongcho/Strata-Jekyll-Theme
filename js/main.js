@@ -108,7 +108,8 @@
 					});
 
 				});
-
+		
+		$('ol li ul li').css('display','none');
 	});
 
 })(jQuery);
