@@ -1,6 +1,6 @@
 locale: "en-US"
 title: hanjoong's github blog # Title of your site
-url: "https://hanjoongcho.github.io/" # the base hostname & protocol for your site
+url: "https://hanjoongcho.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
