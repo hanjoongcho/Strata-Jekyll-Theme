@@ -1,0 +1,76 @@
+<head>
+<meta charset="UTF-8">
+<style>
+	body { margin-top: 0px; margin-left: 0px; }
+	.main {
+		color: white;
+		background-color: #cecece;
+		width: 100%;
+		height: 1500px;
+		position: absolute;
+	}
+	.itemA {
+		margin-top: 20px;
+		background-color: #333030;
+	}
+	
+	.itemB { background-color: #7a7676; }
+	.pxUnit { width: 50px; height: 50px; }
+	.cmUnit { width: 5cm; height: 5cm; font-size: 1cm;}
+	.inUnit { width: 1in; height: 1in; }
+	.ptUnit { width: 72pt; height: 72pt; }
+	.vhUnit { width: 10vh; height: 10vh; }
+	.vwUnit { width: 10vw; height: 10vw; }
+	.emUnit { font-size: 0.5em;}
+	.exUnit { font-size: 0.5ex;}
+</style>
+</head>
+
+<div class="main">
+	<span>css dimension units</span>
+	<div>
+in      inches (1in = 96px = 2.54cm) Try it <br />
+px *    pixels (1px = 1/96th of 1in) Try it <br />
+pt      points (1pt = 1/72 of 1in) Try it <br />
+pc      picas (1pc = 12 pt) <br />
+	</div>
+	<div class="itemA pxUnit">
+		<span>50px</span>
+	</div>
+	<div class="itemA cmUnit">
+		<span>5cm</span>
+		<span class="emUnit">0.5em(M)</span>
+		<span class="exUnit">0.5ex(x)</span>
+	</div>
+	<div class="itemA inUnit">
+		<span>1in</span>
+	</div>
+	<div class="itemA ptUnit">
+		<span>72pt</span>
+	</div>
+	<div class="itemA vhUnit">
+		<span>Relative to 1% of the height of the viewport*</span>
+	</div>
+	<div class="itemA vwUnit">
+		<span>Relative to 1% of the width of the viewport*</span>
+	</div>
+	<hr />
+	<span>android dimension units</span>
+	<div>
+DP(Density-independent Pixels)<br />
+Density-independent Pixels - An abstract unit that is based on the physical density of the screen. These units are relative to a 160 dpi (dots per inch) screen, on which 1dp is roughly equal to 1px. When running on a higher density screen, the number of pixels used to draw 1dp is scaled up by a factor appropriate for the screen's dpi. Likewise, when on a lower density screen, the number of pixels used for 1dp is scaled down. The ratio of dp-to-pixel will change with the screen density, but not necessarily in direct proportion. Using dp units (instead of px units) is a simple solution to making the view dimensions in your layout resize properly for different screen densities. In other words, it provides consistency for the real-world sizes of your UI elements across different devices.<br />
+
+android dimension<br />
+<pre>
+	      device dpi        dp      px
+ldpi    (저밀도)       ~120	1       0.75
+mdpi    (중간 밀도)    ~160dpi	1	1
+hdpi    (고밀도)       ~240dpi	1	1.5
+xhdpi   (초고밀도)     ~320dpi	1	2
+xxhdpi  (초초고밀도)   ~480dpi	1	3
+xxxhdpi (초초초고밀도) ~640dpi	1	4
+</pre>
+	</div>
+
+
+</div>
