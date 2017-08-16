@@ -2858,7 +2858,7 @@
 
 	@media screen and (max-width: 1920px) {
 
-		section img {
+		img.fit  {
 			max-width: 600px !important;
 		}
 			
