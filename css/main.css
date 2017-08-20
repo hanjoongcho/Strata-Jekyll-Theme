@@ -2859,7 +2859,7 @@
 	@media screen and (max-width: 1920px) {
 
 		img.fit  {
-			max-width: 600px !important;
+			max-width: 350px;
 		}
 			
 	
@@ -2908,11 +2908,11 @@
 
 	@media screen and (max-width: 980px) {
 
-		/*
-		.image.fit {
+		
+		img.fit {
 			width: 100%;
 		}
-		*/
+		
 		/* Basic */
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
