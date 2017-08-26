@@ -1671,7 +1671,8 @@
 	}
 
 	code {
-		background: #f7f7f7;
+		color: #ffffff;
+		background: #241f1e;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
 		font-family: "Courier New", monospace;
