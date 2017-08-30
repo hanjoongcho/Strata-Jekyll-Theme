@@ -1,5 +1,5 @@
 (function($) {
-
+	
 	var settings = {
 
 		// Parallax background effect?
@@ -109,7 +109,20 @@
 
 				});
 		
-		$('ol li ul li').css('display','none');
+		$('ol li').css('display','none');
+		
 	});
 
 })(jQuery);
+
+var toggleMenu = function() {
+	var flag = $('#toggleButton').html();
+	if (flag === '[펼치기]') {
+		javascript:$('ol li').css('display','list-item');
+		$('#toggleButton').html('[접기]');
+	} else {
+		javascript:$('ol li').css('display','none');
+		$('#toggleButton').html('[펼치기]');
+	}
+			
+}
