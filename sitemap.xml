@@ -27,4 +27,10 @@ layout: null
 		</url>
 	{% endif %}
   {% endfor %}
+  <url>
+    <loc>https://hanjoongcho.github.io/aaf/</loc>
+    <lastmod>2017-11-15T01:00:00+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
